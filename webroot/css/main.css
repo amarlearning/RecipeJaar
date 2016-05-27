@@ -1,0 +1,46 @@
+*::selection
+{
+ 	background: #aaa;
+}
+section {
+	min-height:100vh;
+	height : 100%;
+}
+header {
+	min-height:85vh;
+	height : 100%;	
+}
+.logo {
+	font-size: 25px;
+}
+.gap-50 {
+	width:100%;
+	height:50px;
+}
+.gap-30 {
+	width:100%;
+	height:30px;
+}
+.gap-20 {
+	width:100%;
+	height:20px;
+}
+.cover {
+	width:100%;
+	height: 100%;
+}
+.wrapped {
+	width:50%;
+	min-width:300px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 1px #aaa;
+	padding:0 50px 50px 50px
+}
+.color {
+	color: #e53935 ;
+}
+.alpha-color {
+	background-color: rgba(84, 110, 122, 0.8);
+}
