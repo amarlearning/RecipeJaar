@@ -734,3 +734,4510 @@ Stack Trace:
 #1 {main}
 
 
+2016-05-30 03:32:37 Error: [PDOException] SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '123', Array)
+#1 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(119): Cake\Database\Driver\Mysql->connect()
+#3 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Database\Connection.php(218): Cake\Database\Driver\Mysql->prepare('SELECT * FROM u...')
+#4 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Database\Connection.php(285): Cake\Database\Connection->prepare('SELECT * FROM u...')
+#5 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Database\Connection.php(243): Cake\Database\Connection->query('SELECT * FROM u...')
+#6 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\src\Controller\IndexController.php(14): Cake\Database\Connection->execute('SELECT * FROM u...')
+#7 [internal function]: App\Controller\IndexController->index('home')
+#8 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#9 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IndexController))
+#11 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-05-30 13:41:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:41:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:46:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:46:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:46:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:46:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:46:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:46:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:52:25 Error: [Cake\View\Exception\MissingTemplateException] Template file "Contacts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Contacts\\index.ctp',
+)
+Request URL: /contacts
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContactsController))
+#4 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-30 13:53:32 Warning: Warning (4096): Argument 1 passed to App\Controller\ContactsController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Event\EventManager.php on line 386 and defined in [C:\Users\AMAR\Desktop\Git\git\RecipeJaar\src\Controller\ContactsController.php, line 108]
+Request URL: /contacts
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\ContactsController::beforeFilter() - APP/Controller\ContactsController.php, line 108
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 386
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 356
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-30 13:53:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:53:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:53:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:53:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:53:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:53:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:54:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:54:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:54:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:54:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:54:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:54:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:58:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:58:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:58:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:58:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:58:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:58:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 13:58:16 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "contacts"
+Request URL: /contacts/view
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\ORM\Table.php(1202): Cake\ORM\Query->firstOrFail()
+#1 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\src\Controller\ContactsController.php(21): Cake\ORM\Table->get(NULL, Array)
+#2 [internal function]: App\Controller\ContactsController->view()
+#3 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContactsController))
+#6 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-05-30 13:59:08 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "contacts"
+Request URL: /contacts/view
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\ORM\Table.php(1202): Cake\ORM\Query->firstOrFail()
+#1 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\src\Controller\ContactsController.php(21): Cake\ORM\Table->get(NULL, Array)
+#2 [internal function]: App\Controller\ContactsController->view()
+#3 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContactsController))
+#6 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-05-30 14:00:26 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "contacts"
+Request URL: /contacts/view
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\ORM\Table.php(1202): Cake\ORM\Query->firstOrFail()
+#1 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\src\Controller\ContactsController.php(21): Cake\ORM\Table->get(NULL, Array)
+#2 [internal function]: App\Controller\ContactsController->view()
+#3 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContactsController))
+#6 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-05-30 14:01:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:01:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:01:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:01:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:01:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:01:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:02:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:02:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:02:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:02:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:02:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:02:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:04:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:04:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:04:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:04:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:04:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:04:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:04:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Contact could not be found.
+Exception Attributes: array (
+  'class' => 'Contact',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /Contact/submit
+Referer URL: http://localhost:8765/contacts
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:05:15 Error: [Cake\View\Exception\MissingTemplateException] Template file "Contacts\submit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Contacts\\submit.ctp',
+)
+Request URL: /Contacts/submit
+Referer URL: http://localhost:8765/contacts
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContactsController))
+#4 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-30 14:06:15 Error: [Cake\View\Exception\MissingTemplateException] Template file "Contacts\submit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Contacts\\submit.ctp',
+)
+Request URL: /Contacts/submit
+Referer URL: http://localhost:8765/contacts
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContactsController))
+#4 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-30 14:06:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:06:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:06:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:06:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:06:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:06:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:07:07 Error: [Cake\View\Exception\MissingTemplateException] Template file "Contacts\submit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Contacts\\submit.ctp',
+)
+Request URL: /Contacts/submit
+Referer URL: http://localhost:8765/contacts
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContactsController))
+#4 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-30 14:08:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:08:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:12:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:12:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:12:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:12:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:12:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:12:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Contact could not be found.
+Exception Attributes: array (
+  'class' => 'Contact',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /contact
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:18:47 Error: [RuntimeException] Cannot insert row in "contacts" table, it has no primary key.
+Request URL: /Contacts/submit
+Referer URL: http://localhost:8765/contacts
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\ORM\Table.php(1461): Cake\ORM\Table->_insert(Object(App\Model\Entity\Contact), Array)
+#1 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\ORM\Table.php(1392): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Contact), Object(ArrayObject))
+#2 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Database\Connection.php(559): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#3 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\ORM\Table.php(1393): Cake\Database\Connection->transactional(Object(Closure))
+#4 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\src\Controller\ContactsController.php(32): Cake\ORM\Table->save(Object(App\Model\Entity\Contact))
+#5 [internal function]: App\Controller\ContactsController->submit()
+#6 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#7 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ContactsController))
+#9 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-05-30 14:22:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:22:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:22:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:22:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Contact could not be found.
+Exception Attributes: array (
+  'class' => 'Contact',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /contact
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:38 Warning: Warning (4096): Argument 1 passed to App\Controller\ContactsController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Event\EventManager.php on line 386 and defined in [C:\Users\AMAR\Desktop\Git\git\RecipeJaar\src\Controller\ContactsController.php, line 15]
+Request URL: /contacts
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\ContactsController::beforeFilter() - APP/Controller\ContactsController.php, line 15
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 386
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 356
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-30 14:23:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:23:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:24:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:24:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:24:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:24:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:24:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:24:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:24:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:24:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:24:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:25:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:27:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:28:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:28:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:28:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:28:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:28:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:28:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:29:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:29:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:29:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:29:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:29:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:29:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:30:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:31:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:31:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:31:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:31:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:31:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:31:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:31:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:31:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:33:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:36:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:36:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:36:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:36:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:36:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:36:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:38:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:38:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:38:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:38:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:38:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:38:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:40:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:41:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:42:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:44:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:44:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:44:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:44:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:44:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:44:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:47:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:48:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:48:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:48:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:48:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:48:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:48:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:49:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:52:55 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\Users\AMAR\Desktop\Git\git\RecipeJaar\src\Controller\ContactsController.php, line 35]
+Request URL: /Contacts/submit
+Referer URL: http://localhost:8765/contacts
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-30 14:52:56 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Contacts/submit
+Referer URL: http://localhost:8765/contacts
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Users\\AMAR\\D...', 35)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-30 14:53:26 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\Users\AMAR\Desktop\Git\git\RecipeJaar\src\Controller\ContactsController.php, line 35]
+Request URL: /Contacts/submit
+Referer URL: http://localhost:8765/contacts
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-30 14:53:27 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Contacts/submit
+Referer URL: http://localhost:8765/contacts
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Users\\AMAR\\D...', 35)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-30 14:54:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:54:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff2
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:54:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:54:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.woff
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:54:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Regular.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-30 14:54:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fonts/roboto/Roboto-Light.ttf
+Referer URL: http://localhost:8765/css/materialize.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\Users\AMAR\Desktop\Git\git\RecipeJaar\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
