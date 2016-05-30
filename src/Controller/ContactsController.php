@@ -35,7 +35,7 @@ class ContactsController extends AppController
                 return $this->redirect(['action' => 'index']);
             } else {
                 $this->Flash->error(__('The contact could not be saved. Please, try again.'));
-                // return $this->redirect(['action' => 'index']);
+                return $this->redirect(['action' => 'index']);
             }
         }
         $this->set(compact('contact'));
