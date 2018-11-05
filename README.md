@@ -8,8 +8,7 @@
 
 ***
 
-##Demo
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/BlogCakePhp)
+## Demo 
 
 Watch a live demo of it working here
 [![asciicast](https://github.com/amarlearning/RecipeJaar/raw/master/screenshot/github.png)](https://youtu.be/9HwOMgeMm5E)
